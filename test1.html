@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>字彙測驗</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">首頁</a>
+        <a href="test1.html">字彙測驗</a>
+        <a href="test2.html">閱讀測驗</a>
+        <a href="test3.html">文法測驗</a>
+        <a href="about.html">製作團隊</a>
+    </div>
+
+    <div class="container">
+        <h1>字彙測驗</h1>
+
+        <!-- 題目卡片 1 -->
+        <div class="card">
+            <h3>1. The manager will ___ the schedule next week.</h3>
+            <label><input type="radio" name="q1" value="A"> A. review</label><br>
+            <label><input type="radio" name="q1" value="B"> B. remove</label><br>
+            <label><input type="radio" name="q1" value="C"> C. revise</label><br>
+            <button onclick="checkAnswer('q1', 'A')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>2. The company plans to ___ a new product this summer.</h3>
+            <label><input type="radio" name="q2" value="A"> A. launch</label><br>
+            <label><input type="radio" name="q2" value="B"> B. lunch</label><br>
+            <label><input type="radio" name="q2" value="C"> C. learn</label><br>
+            <button onclick="checkAnswer('q2', 'A')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>3. Please ___ the form before submitting it.</h3>
+            <label><input type="radio" name="q3" value="A"> A. fill</label><br>
+            <label><input type="radio" name="q3" value="B"> B. fall</label><br>
+            <label><input type="radio" name="q3" value="C"> C. feel</label><br>
+            <button onclick="checkAnswer('q3', 'A')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>4. The new policy will take ___ next month.</h3>
+            <label><input type="radio" name="q4" value="A"> A. effect</label><br>
+            <label><input type="radio" name="q4" value="B"> B. effort</label><br>
+            <label><input type="radio" name="q4" value="C"> C. affect</label><br>
+            <button onclick="checkAnswer('q4', 'A')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>5. Employees are encouraged to ___ ideas during meetings.</h3>
+            <label><input type="radio" name="q5" value="A"> A. seek</label><br>
+            <label><input type="radio" name="q5" value="B"> B. share</label><br>
+            <label><input type="radio" name="q5" value="C"> C. shape</label><br>
+            <button onclick="checkAnswer('q5', 'B')">確認答案</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

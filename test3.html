@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>文法測驗</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">首頁</a>
+        <a href="test1.html">字彙測驗</a>
+        <a href="test2.html">閱讀測驗</a>
+        <a href="test3.html">文法測驗</a>
+        <a href="about.html">製作團隊</a>
+    </div>
+
+    <div class="container">
+        <h1>文法測驗</h1>
+
+        <div class="card">
+            <h3>1. The meeting will begin as soon as the manager ______.</h3>
+            <label><input type="radio" name="q1" value="A"> A. arrives</label><br>
+            <label><input type="radio" name="q1" value="B"> B. arriving</label><br>
+            <label><input type="radio" name="q1" value="C"> C. arrived</label><br>
+            <label><input type="radio" name="q1" value="D"> D. arrival</label><br>
+            <button onclick="checkAnswer('q1', 'A')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>2. Mr. Chen is responsible ______ training new employees.</h3>
+            <label><input type="radio" name="q2" value="A"> A. at</label><br>
+            <label><input type="radio" name="q2" value="B"> B. with</label><br>
+            <label><input type="radio" name="q2" value="C"> C. for</label><br>
+            <label><input type="radio" name="q2" value="D"> D. to</label><br>
+            <button onclick="checkAnswer('q2', 'C')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>3. The report was completed ______ the deadline.</h3>
+            <label><input type="radio" name="q3" value="A"> A. across</label><br>
+            <label><input type="radio" name="q3" value="B"> B. before</label><br>
+            <label><input type="radio" name="q3" value="C"> C. against</label><br>
+            <label><input type="radio" name="q3" value="D"> D. until</label><br>
+            <button onclick="checkAnswer('q3', 'B')">確認答案</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

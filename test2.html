@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>閱讀測驗</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">首頁</a>
+        <a href="test1.html">字彙測驗</a>
+        <a href="test2.html">閱讀測驗</a>
+        <a href="test3.html">文法測驗</a>
+        <a href="about.html">製作團隊</a>
+    </div>
+
+    <div class="container">
+        <h1>閱讀測驗</h1>
+
+        <div class="card">
+            <h3>閱讀文章</h3>
+            <p>
+                Thank you for choosing StarLine Hotel. This e-mail confirms your reservation for
+                <b>March 12–15</b>, including three nights in a deluxe double room.
+                Breakfast and Wi-Fi are included. Check-in begins at 3:00 PM, and check-out is at 12:00 PM.
+                If you need to make changes to your reservation, please contact us at
+                support@starlinehotel.com.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>1. 這封信的主要目的為何？</h3>
+            <label><input type="radio" name="q1" value="A"> A. 推廣新服務</label><br>
+            <label><input type="radio" name="q1" value="B"> B. 確認訂房資訊</label><br>
+            <label><input type="radio" name="q1" value="C"> C. 回覆取消申請</label><br>
+            <label><input type="radio" name="q1" value="D"> D. 邀請促銷活動</label><br>
+            <button onclick="checkAnswer('q1', 'B')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>2. 文章中提到 Check-in 是幾點？</h3>
+            <label><input type="radio" name="q2" value="A"> A. 12:00 PM</label><br>
+            <label><input type="radio" name="q2" value="B"> B. 1:00 PM</label><br>
+            <label><input type="radio" name="q2" value="C"> C. 3:00 PM</label><br>
+            <label><input type="radio" name="q2" value="D"> D. 6:00 PM</label><br>
+            <button onclick="checkAnswer('q2', 'C')">確認答案</button>
+        </div>
+
+        <div class="card">
+            <h3>3. 若要更改預訂資訊，應該怎麼做？</h3>
+            <label><input type="radio" name="q3" value="A"> A. 臨櫃洽詢</label><br>
+            <label><input type="radio" name="q3" value="B"> B. 填寫線上表單</label><br>
+            <label><input type="radio" name="q3" value="C"> C. 直接到酒店現場詢問</label><br>
+            <label><input type="radio" name="q3" value="D"> D. 寄信到指定信箱</label><br>
+            <button onclick="checkAnswer('q3', 'D')">確認答案</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
